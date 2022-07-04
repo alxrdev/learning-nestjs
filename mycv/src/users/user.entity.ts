@@ -23,7 +23,7 @@ export class User {
   @Column()
   password: string;
 
-  @Column()
+  @Column({ default: false })
   admin: boolean;
 
   @Column({ default: true })

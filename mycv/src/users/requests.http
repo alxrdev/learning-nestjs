@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
   "name": "Teste da Silva",
-  "email": "test2@test.com",
+  "email": "test@test.com",
   "password": "password"
 }
 
@@ -13,7 +13,7 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-  "email": "test2@test.com",
+  "email": "test@test.com",
   "password": "password"
 }
 
